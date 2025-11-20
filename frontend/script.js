@@ -1,5 +1,5 @@
 // Use localhost (not 127.0.0.1) to avoid IPv6 mismatch on some Windows setups
-const API_URL = "http://localhost:8000/get-response";
+const API_URL = "https://voice-bot-1-oult.onrender.com";
 
 let recognition;
 if ("webkitSpeechRecognition" in window || "SpeechRecognition" in window) {
